@@ -6,6 +6,10 @@
 #Tab=3########################################################################
 
 import linux
+import glibc
 
 def build_linux ():
    linux.build ()
+
+def build_glibc ():
+   glibc.build ()

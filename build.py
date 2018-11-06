@@ -72,8 +72,8 @@ Name : build_linux
 """
 
 def build_linux (args):
-
    meijeos.build_linux ()
+   meijeos.build_glibc ()
 
 
 
