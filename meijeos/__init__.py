@@ -9,6 +9,7 @@ import linux
 import glibc
 import alsa
 import sysroot
+import busybox
 
 def build_linux ():
    linux.build ()
@@ -21,3 +22,6 @@ def build_alsa ():
 
 def make_sysroot ():
    sysroot.make ()
+
+def build_busybox ():
+   busybox.build ()
