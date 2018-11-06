@@ -75,6 +75,7 @@ def build_linux (args):
    meijeos.build_linux ()
    meijeos.build_glibc ()
    meijeos.build_alsa ()
+   meijeos.make_sysroot ()
 
 
 
