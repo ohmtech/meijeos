@@ -7,9 +7,13 @@
 
 import linux
 import glibc
+import alsa
 
 def build_linux ():
    linux.build ()
 
 def build_glibc ():
    glibc.build ()
+
+def build_alsa ():
+   alsa.build ()
